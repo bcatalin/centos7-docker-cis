@@ -1,0 +1,3 @@
+---
+- src: https://github.com/t32yla/RHEL7-CIS.git
+  version: container

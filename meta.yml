@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: t32yla
+  description: Create a CIS compliant Centos 7 container image
+  company:
+
+  license: license (GPLv3, CC-BY, etc)
+
+  min_ansible_container_version: 0.9.2
+
+  tags: []

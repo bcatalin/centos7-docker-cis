@@ -1,0 +1,15 @@
+---
+version: "2"
+settings:
+  conductor:
+    base: "centos:7"
+  project_name: centos7-cis
+  vars_files:
+    - vars.yaml
+
+services:
+  image:
+    from: "centos:7.5.1804"
+    roles:
+      # use su since sudo is not installed in minimal centos7 container
+      - {role: RHEL7-CIS, become_method: su}
