@@ -1,28 +1,147 @@
 ---
-rhel7cis_skip_for_travis: true
+# defaults file for RHEL7-CIS
+rhel7cis_skip_for_travis: false
 
 rhel7cis_notauto: false
 rhel7cis_section1: true
 rhel7cis_section2: true
 rhel7cis_section3: true
-rhel7cis_section4: true
+rhel7cis_section4: false
 rhel7cis_section5: true
 rhel7cis_section6: true
 
 rhel7cis_selinux_disable: true
 
-# Section 1 rules
+rhel7cis_rule_1_1_1_1: false
+rhel7cis_rule_1_1_1_2: false
+rhel7cis_rule_1_1_1_3: false
+rhel7cis_rule_1_1_1_4: false
+rhel7cis_rule_1_1_1_5: false
+rhel7cis_rule_1_1_1_6: false
+rhel7cis_rule_1_1_1_7: false
+rhel7cis_rule_1_1_1_8: false
 rhel7cis_rule_1_1_2: false
+rhel7cis_rule_1_1_3: false
+rhel7cis_rule_1_1_4: false
+rhel7cis_rule_1_1_5: false
+rhel7cis_rule_1_1_6: false
+rhel7cis_rule_1_1_7: false
+rhel7cis_rule_1_1_8: true    # update packages
+rhel7cis_rule_1_1_9: false
+rhel7cis_rule_1_1_10: false
+rhel7cis_rule_1_1_11: false
+rhel7cis_rule_1_1_12: false
+rhel7cis_rule_1_1_13: false
+rhel7cis_rule_1_1_14: false
+rhel7cis_rule_1_1_15: true
+rhel7cis_rule_1_1_16: true
+rhel7cis_rule_1_1_17: true
+rhel7cis_rule_1_1_18: false
+rhel7cis_rule_1_1_19: false
+rhel7cis_rule_1_1_20: false
+rhel7cis_rule_1_1_21: true
 rhel7cis_rule_1_1_22: false
-rhel7cis_rule_1_5_2: false
+rhel7cis_rule_1_2_1: true
+rhel7cis_rule_1_2_2: true
+rhel7cis_rule_1_2_3: false
+rhel7cis_rule_1_2_4: false
+rhel7cis_rule_1_2_5: false
+rhel7cis_rule_1_3_1: false
+rhel7cis_rule_1_3_2: false
+rhel7cis_rule_1_4_1: true    #
+rhel7cis_rule_1_4_2: false
+rhel7cis_rule_1_4_3: false
+rhel7cis_rule_1_5_1: true
+rhel7cis_rule_1_5_2: true
+rhel7cis_rule_1_5_3: false
+rhel7cis_rule_1_5_4: true
 rhel7cis_rule_1_6_1_1: false
 rhel7cis_rule_1_6_1_2: false
 rhel7cis_rule_1_6_1_3: false
 rhel7cis_rule_1_6_1_4: false
+rhel7cis_rule_1_6_1_5: false
+rhel7cis_rule_1_6_2: false
+rhel7cis_rule_1_7_1_1: false
+rhel7cis_rule_1_7_1_2: false
+rhel7cis_rule_1_7_1_3: false
+rhel7cis_rule_1_7_1_4: false
+rhel7cis_rule_1_7_1_5: false
+rhel7cis_rule_1_7_1_6: false
 rhel7cis_rule_1_7_2: false
+rhel7cis_rule_1_8: true
 
 # Section 2 rules
+rhel7cis_rule_2_1_1: true
+rhel7cis_rule_2_1_2: true
+rhel7cis_rule_2_1_3: true
+rhel7cis_rule_2_1_4: true
+rhel7cis_rule_2_1_5: true
+rhel7cis_rule_2_1_6: true
+rhel7cis_rule_2_1_7: true
+
+# available in inspec profile
+# but not here
+#rhel7cis_rule_2_1_8: true
+#rhel7cis_rule_2_1_9: true
+#rhel7cis_rule_2_1_10: true
+
 rhel7cis_rule_2_2_1_1: false
+rhel7cis_rule_2_2_1_2: false
+rhel7cis_rule_2_2_1_3: false
+rhel7cis_rule_2_2_2: true
+rhel7cis_rule_2_2_3: true
+rhel7cis_rule_2_2_4: true
+rhel7cis_rule_2_2_5: true
+rhel7cis_rule_2_2_6: true
+rhel7cis_rule_2_2_7: true
+rhel7cis_rule_2_2_8: true
+rhel7cis_rule_2_2_9: true
+rhel7cis_rule_2_2_10: true
+rhel7cis_rule_2_2_11: true
+rhel7cis_rule_2_2_12: true
+rhel7cis_rule_2_2_13: true
+rhel7cis_rule_2_2_14: true
+rhel7cis_rule_2_2_15: true
+rhel7cis_rule_2_2_16: true
+rhel7cis_rule_2_2_17: true
+rhel7cis_rule_2_2_18: false
+rhel7cis_rule_2_2_19: false
+rhel7cis_rule_2_2_20: false
+rhel7cis_rule_2_2_21: false
+rhel7cis_rule_2_3_1: true
+rhel7cis_rule_2_3_2: true
+rhel7cis_rule_2_3_3: true
+rhel7cis_rule_2_3_4: true
+rhel7cis_rule_2_3_5: false
+
+# Section 3 rules
+rhel7cis_rule_3_1_1: false
+rhel7cis_rule_3_1_2: false
+rhel7cis_rule_3_2_1: false
+rhel7cis_rule_3_2_2: false
+rhel7cis_rule_3_2_3: false
+rhel7cis_rule_3_2_4: false
+rhel7cis_rule_3_2_5: true
+rhel7cis_rule_3_2_6: true
+rhel7cis_rule_3_2_7: true
+rhel7cis_rule_3_2_8: false
+rhel7cis_rule_3_3_1: false
+rhel7cis_rule_3_3_2: false
+rhel7cis_rule_3_3_3: false
+rhel7cis_rule_3_4_1: true
+rhel7cis_rule_3_4_2: true
+rhel7cis_rule_3_4_3: true
+rhel7cis_rule_3_4_4: true
+rhel7cis_rule_3_4_5: true
+rhel7cis_rule_3_5_1: true
+rhel7cis_rule_3_5_2: true
+rhel7cis_rule_3_5_3: true
+rhel7cis_rule_3_5_4: true
+rhel7cis_rule_3_6_1: false
+rhel7cis_rule_3_6_2: false
+rhel7cis_rule_3_6_3: false
+rhel7cis_rule_3_6_4: false
+rhel7cis_rule_3_6_5: false
 
 # Section 4 rules
 rhel7cis_rule_4_1_1_1: false
@@ -45,6 +164,18 @@ rhel7cis_rule_4_1_15: false
 rhel7cis_rule_4_1_16: false
 rhel7cis_rule_4_1_17: false
 rhel7cis_rule_4_1_18: false
+rhel7cis_rule_4_2_3: false
+rhel7cis_rule_4_2_1_1: false
+rhel7cis_rule_4_2_1_2: false
+rhel7cis_rule_4_2_1_3: false
+rhel7cis_rule_4_2_1_4: false
+rhel7cis_rule_4_2_1_5: false
+rhel7cis_rule_4_2_2_1: false
+rhel7cis_rule_4_2_2_2: false
+rhel7cis_rule_4_2_2_3: false
+rhel7cis_rule_4_2_2_4: false
+rhel7cis_rule_4_2_2_5: false
+rhel7cis_rule_4_2_4: false
 
 # Section 5 rules
 rhel7cis_rule_5_1_1: false
@@ -71,12 +202,57 @@ rhel7cis_rule_5_2_13: false
 rhel7cis_rule_5_2_14: false
 rhel7cis_rule_5_2_15: false
 rhel7cis_rule_5_2_16: false
+rhel7cis_rule_5_3_1: true
+rhel7cis_rule_5_3_2: true
+rhel7cis_rule_5_3_3: false
+rhel7cis_rule_5_3_4: true
+rhel7cis_rule_5_4_1_1: true
+rhel7cis_rule_5_4_1_2: true
+rhel7cis_rule_5_4_1_3: true
+rhel7cis_rule_5_4_1_4: false
+rhel7cis_rule_5_4_2: false
+rhel7cis_rule_5_4_3: true
+rhel7cis_rule_5_4_4: false
 
 # Section 6 rules
-rhel7cis_rule_6_1_6: false
-rhel7cis_rule_6_1_7: false
+rhel7cis_rule_6_1_1: false
+rhel7cis_rule_6_1_2: true
+rhel7cis_rule_6_1_3: true
+rhel7cis_rule_6_1_4: true
+rhel7cis_rule_6_1_5: true
+rhel7cis_rule_6_1_6: true
+rhel7cis_rule_6_1_7: true
+rhel7cis_rule_6_1_8: true
+rhel7cis_rule_6_1_9: true
+rhel7cis_rule_6_1_10: true
+rhel7cis_rule_6_1_11: true
+rhel7cis_rule_6_1_12: true
+rhel7cis_rule_6_1_13: true
+rhel7cis_rule_6_1_14: true
+rhel7cis_rule_6_2_1: true
+rhel7cis_rule_6_2_2: true
+rhel7cis_rule_6_2_3: true
+rhel7cis_rule_6_2_4: true
+rhel7cis_rule_6_2_5: true
+rhel7cis_rule_6_2_6: true
+rhel7cis_rule_6_2_7: true
+rhel7cis_rule_6_2_8: true
+rhel7cis_rule_6_2_9: true
+rhel7cis_rule_6_2_10: true
+rhel7cis_rule_6_2_11: true
+rhel7cis_rule_6_2_12: true
 
-#
+#rhel7cis_rule_6_2_13: true    # not available?
+
+rhel7cis_rule_6_2_14: true
+rhel7cis_rule_6_2_15: true
+rhel7cis_rule_6_2_16: true
+rhel7cis_rule_6_2_17: true
+rhel7cis_rule_6_2_18: true
+rhel7cis_rule_6_2_19: true
+
+#rhel7cis_rule_6_2_20: true    # not available?
+
 rhel7cis_avahi_server: false
 rhel7cis_cups_server: false
 rhel7cis_dhcp_server: false
@@ -108,19 +284,12 @@ rhel7cis_net_snmp: false
 rhel7cis_allow_autofs: false
 
 rhel7cis_xinetd_required: false
-
 rhel7cis_rhnsd_required: false
 
 rhel7cis_is_router: false
-
 rhel7cis_ipv6_required: false
-
 rhel7cis_config_aide: false
-
-rhel7cis_selinux_pol: targeted
-
 rhel7cis_gui: no
-
 rhel7cis_xwindows_required: no
 
 rhel7cis_openldap_clients_required: false
@@ -129,19 +298,12 @@ rhel7cis_talk_required: false
 rhel7cis_rsh_required: false
 rhel7cis_ypbind_required: false
 
-rhel7cis_time_synchronization: chrony
-
-rhel7cis_time_synchronization_servers:
-    - 0.pool.ntp.org
-    - 1.pool.ntp.org
-    - 2.pool.ntp.org
-    - 3.pool.ntp.org
-
 rhel7cis_firewall: none
 
 rhel7cis_warning_banner: |
     Authorized uses only. All activity may be monitored and reported.
 
-rhel7cis_logrotate: "daily"
-
-rhel7cis_syslog: rsyslog
+rhel7cis_pass:
+    max_days: 90
+    min_days: 7
+    warn_age: 7
